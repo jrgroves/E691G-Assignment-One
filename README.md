@@ -4,8 +4,6 @@ For this assignment you will obtain and clean data for your assigned States from
 
 # Getting to know your states
 
-![image](https://github.com/user-attachments/assets/29e391ba-c031-4123-83b4-0a8d5044fe65)
-
 You have each been assigned a set of states and so now you will need the demographic data for for those states over the decades 1970 through 2020. Since we are dealing with decades, we will utilize data from the U.S. Decennial Census and since we have decades prior to 2000, that rules out the use of the census API (*tidycensus*). An alternative data source for the U.S. Census and many other surveys, demographics, and GIS data is [IPUMS.org](https://www.ipums.org/). They have a collection of "projects" that deal with several different types and scopes of data and the project we will focus on is the NHGIS project for "National Historic Geographic Information Systems" project. Like the census, they too have an API and there is a package that allows us to (somewhat) easily interact with the API through `R` and you need to get that installed on your machine.
 
 > 1. Install in whatever method you choose, the package *ipumsr* and add a line of code to the script to load the library into `R` in addition to the *tidyverse* package. It will be obvious if you do not, because nothing else will work.
