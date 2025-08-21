@@ -1,4 +1,4 @@
-#Assignment One
+#Template for Groves ECON 691 Assignment
 rm(list=ls())
 
 library()
@@ -47,7 +47,7 @@ library(stargazer)
     select(GEOID, NAME, geometry)  %>%
     mutate(STATEFP = GEOID) 
 
- #Basic Clan of data####
+ #Basic Clean of data####
 
     dat2 <- dat %>%
       select(STATEFP, ends_with(c("1970", "1980", "1990", "2000", "2010", "105", "2020", "205"))) %>%
